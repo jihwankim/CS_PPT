@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCal", "SimpleCal\SimpleCal.csproj", "{04720354-8669-4A5E-995B-AA6FAE37A51F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoreLib", "CoreLib\CoreLib.vcxproj", "{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|Win32.ActiveCfg = Release|Any CPU
+		{04720354-8669-4A5E-995B-AA6FAE37A51F}.Release|x64.ActiveCfg = Release|Any CPU
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|ARM.ActiveCfg = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|Win32.Build.0 = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Debug|x64.ActiveCfg = Debug|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|ARM.ActiveCfg = Release|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|Win32.ActiveCfg = Release|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|Win32.Build.0 = Release|Win32
+		{9C85DFEA-695C-48EB-9E19-6A4ED2F37D0C}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
