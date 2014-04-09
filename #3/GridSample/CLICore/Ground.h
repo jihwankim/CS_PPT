@@ -20,8 +20,7 @@ namespace CLICore {
 		Ground();
 		virtual ~Ground();
 
-		void Init(CLICore::Core ^core);
-		void Create( int nRow, int nCol, float fSize);
+		void Create(CLICore::Core ^core, int nRow, int nCol, float fSize);
 		void Render();
 	};
 }

@@ -16,8 +16,7 @@ private:
 	int m_nCol, m_nRow;
 
 public:
-	void Init(LPDIRECT3DDEVICE9 device);
-	void Create(int nRow, int nCol, float fSize);
+	void Create(LPDIRECT3DDEVICE9 device, int nRow, int nCol, float fSize);
 	void OnRender();
 	void OnRelease();
 

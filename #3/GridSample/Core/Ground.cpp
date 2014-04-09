@@ -19,19 +19,14 @@ CGround::~CGround(void)
 	OnRelease();
 }
 
-
-void CGround::Init(LPDIRECT3DDEVICE9 device)
-{
-	m_pd3dDevice = device;
-}
-
-void CGround::Create(int nRow, int nCol, float fSize)
+void CGround::Create(LPDIRECT3DDEVICE9 device, int nRow, int nCol, float fSize)
 {
 	m_nCol = nCol;
 	m_nRow = nRow;
 
 	m_dwNumVertices = (m_nCol + 1)*(m_nRow + 1);
 	m_dwNumIndices = m_nCol * m_nRow * 6;
+	m_pd3dDevice = device;
 
 	GROUNDVERTEX *pGroundVertex = new GROUNDVERTEX[m_dwNumVertices];
 

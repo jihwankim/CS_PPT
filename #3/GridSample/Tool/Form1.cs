@@ -23,8 +23,7 @@ namespace Tool
             core.Init(this.Handle.ToInt32());
 
             ground = new CLICore.Ground();
-            ground.Init(core);
-            ground.Create(20, 20, 0.5f);
+            ground.Create(core, 20, 20, 0.5f);
 
             Render();
         }

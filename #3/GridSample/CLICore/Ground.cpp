@@ -21,15 +21,9 @@ namespace CLICore
 		}
 	}
 
-	void Ground::Init(CLICore::Core ^core)
+	void Ground::Create(CLICore::Core ^core, int nRow, int nCol, float fSize)
 	{
-		mpInstance->Init(core->GetDeveice());
-	}
-
-
-	void Ground::Create(int nRow, int nCol, float fSize)
-	{
-		mpInstance->Create(nRow, nCol, fSize);
+		mpInstance->Create(core->GetDeveice(), nRow, nCol, fSize);
 	}
 
 	void Ground::Render()
